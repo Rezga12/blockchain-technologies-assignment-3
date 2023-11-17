@@ -44,7 +44,7 @@ export class Splitwise {
         this method is mean to revoke your sent money request, Revoked MoneyRequest should also
         be deleted
      */
-    public async cancelMoneyRequest() : Promise<string> {
+    public async cancelMoneyRequest(requestId: bigint) : Promise<string> {
         return '';
     }
 
